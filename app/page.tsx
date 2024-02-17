@@ -48,6 +48,7 @@ const Home: NextPage = () => {
     <div>
       <div style={container}>
         <div className="cinematics" style={outer}>
+          <h1 style={{color:'white',textAlign:'center'}}> PRIMER VIDEO RENDERIZADO</h1>
           <Player
             component={Main}
             inputProps={inputProps}
@@ -66,11 +67,7 @@ const Home: NextPage = () => {
           setText={setText}
           inputProps={inputProps}
         ></RenderControls>
-        <Spacing></Spacing>
-        <Spacing></Spacing>
-        <Spacing></Spacing>
-        <Spacing></Spacing>
-        <Tips></Tips>
+        
       </div>
     </div>
   );
